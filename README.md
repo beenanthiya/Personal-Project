@@ -29,7 +29,7 @@ graph LR;
   Sequelize --> MySQL;
 ```
 
-![](./Image/mermaid.png)
+![mermaid](./Image/mermaid.png)
 
 ## 📋 Features
 
