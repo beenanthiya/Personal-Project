@@ -4,14 +4,18 @@
 
 Rich Bank คือ ระบบ Internet Banking ที่สามารถตรวจสอบข้อมูลบัญชีของผู้ใช้ สามารถแสดงรายการธุรกรรมของผู้ใช้ และสามารถโอนเงินไปยังบัญชีอื่นได้
 
+## Bu
+
+- [x] Cup
+
 ## 🛠 Structure
 
 ```
 graph LR;
-  richbank-front-end --> richbank-back-end;
-  richbank-back-end -->|JWT| PassportJS;
-  PassportJS -->|Authentication| richbank-back-end;
-  richbank-back-end --> Sequelize;
+  richbank-frontend --> richbank-backend;
+  richbank-backend -->|JWT| PassportJS;
+  PassportJS -->|Authentication| richbank-backend;
+  richbank-backend --> Sequelize;
   Sequelize --> MySQL;
 ```
 
